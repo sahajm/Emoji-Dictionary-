@@ -40,6 +40,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-482" y="126"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="978-Nf-hzP">
+            <objects>
+                <viewController id="n2Z-6Q-GZu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HUp-ah-iM7"/>
+                        <viewControllerLayoutGuide type="bottom" id="tF8-FF-D5Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rx7-35-wXx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOT-vu-vj6">
+                                <rect key="frame" x="187.5" y="60" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🕌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHQ-Pu-MyR">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huh! This is a mosque" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ar-ke-uB5">
+                                <rect key="frame" x="102.5" y="319" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Ar-ke-uB5" firstAttribute="top" secondItem="QHQ-Pu-MyR" secondAttribute="bottom" constant="20" id="26o-qT-POa"/>
+                            <constraint firstItem="7Ar-ke-uB5" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="3pR-RG-wVd"/>
+                            <constraint firstItem="QHQ-Pu-MyR" firstAttribute="top" secondItem="HUp-ah-iM7" secondAttribute="bottom" constant="40" id="IjY-1y-V4D"/>
+                            <constraint firstItem="AOT-vu-vj6" firstAttribute="top" secondItem="HUp-ah-iM7" secondAttribute="bottom" constant="40" id="Zwy-Tz-h6V"/>
+                            <constraint firstItem="QHQ-Pu-MyR" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="bki-NU-SCu"/>
+                            <constraint firstItem="AOT-vu-vj6" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="mC2-mq-Bpv"/>
+                            <constraint firstItem="QHQ-Pu-MyR" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="oc7-uT-CUP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBE-AM-NZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319.19999999999999" y="125.4872563718141"/>
         </scene>
     </scenes>
 </document>
