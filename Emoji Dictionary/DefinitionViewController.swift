@@ -10,6 +10,7 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
     
+    @IBOutlet weak var definitionLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
     var emoji = "No"
 
@@ -17,6 +18,22 @@ class DefinitionViewController: UIViewController {
         super.viewDidLoad()
         
         emojiLabel.text = emoji
+        if emoji == "💩" {
+        definitionLabel.text = "Cute Hamster"
+        }
+        if emoji == "😂" {
+            definitionLabel.text = "What a happy life"
+        }
+        if emoji == "🙏🏻" {
+            definitionLabel.text = "Ma tujhe Salam"
+        }
+        if emoji == "😠" {
+            definitionLabel.text = "Wait for it!"
+        }
+        if emoji == "😀" {
+            definitionLabel.text = "Happy go Lucky!!"
+        }
+        
         
         // Do any additional setup after loading the view.
     }
