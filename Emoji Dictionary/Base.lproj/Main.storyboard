@@ -74,21 +74,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Building " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqX-m0-qMY">
+                                <rect key="frame" x="114.5" y="409" width="146" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Founded: 1400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGU-kj-UQi">
+                                <rect key="frame" x="130" y="455" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7Ar-ke-uB5" firstAttribute="top" secondItem="QHQ-Pu-MyR" secondAttribute="bottom" constant="20" id="26o-qT-POa"/>
                             <constraint firstItem="7Ar-ke-uB5" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="3pR-RG-wVd"/>
+                            <constraint firstItem="JGU-kj-UQi" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="FDs-Bk-Cdc"/>
                             <constraint firstItem="QHQ-Pu-MyR" firstAttribute="top" secondItem="HUp-ah-iM7" secondAttribute="bottom" constant="40" id="IjY-1y-V4D"/>
+                            <constraint firstItem="zqX-m0-qMY" firstAttribute="top" secondItem="7Ar-ke-uB5" secondAttribute="bottom" constant="25" id="RGn-8z-u2r"/>
                             <constraint firstItem="AOT-vu-vj6" firstAttribute="top" secondItem="HUp-ah-iM7" secondAttribute="bottom" constant="40" id="Zwy-Tz-h6V"/>
                             <constraint firstItem="QHQ-Pu-MyR" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="bki-NU-SCu"/>
+                            <constraint firstItem="zqX-m0-qMY" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="bv4-wS-q7g"/>
+                            <constraint firstItem="JGU-kj-UQi" firstAttribute="top" secondItem="zqX-m0-qMY" secondAttribute="bottom" constant="25" id="g6O-dC-Lxw"/>
                             <constraint firstItem="AOT-vu-vj6" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="mC2-mq-Bpv"/>
                             <constraint firstItem="QHQ-Pu-MyR" firstAttribute="centerX" secondItem="rx7-35-wXx" secondAttribute="centerX" id="oc7-uT-CUP"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="categoryLabel" destination="zqX-m0-qMY" id="yBt-AA-Guy"/>
                         <outlet property="definitionLabel" destination="7Ar-ke-uB5" id="dJQ-a9-Q8o"/>
                         <outlet property="emojiLabel" destination="QHQ-Pu-MyR" id="XH1-Oh-2of"/>
+                        <outlet property="foundedLabel" destination="JGU-kj-UQi" id="als-Ti-3bq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBE-AM-NZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
